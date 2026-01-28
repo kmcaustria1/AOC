@@ -62,4 +62,5 @@ for row,value in enumerate(f):
             if lNumOffset: total += int(value[locTuple[1]-lNumOffset,locTuple[1]])
             if rNumOffset: total += int(value[locTuple[1],locTuple[1]+rNumOffset])
             
+
  
