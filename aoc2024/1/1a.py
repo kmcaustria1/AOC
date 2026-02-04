@@ -11,3 +11,4 @@ list2 = sorted(list2)
 for i in range(len(list1)):
     sum += abs(list1[i]-list2[i])
 print(sum)
+f.close()
