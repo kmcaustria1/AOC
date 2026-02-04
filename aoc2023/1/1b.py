@@ -93,3 +93,4 @@ for i in f:
     last = ''
     
 print(total)
+f.close()
