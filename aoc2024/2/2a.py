@@ -12,5 +12,5 @@ for line in f:
                 check = 0
                 break
         sum += check
-        
 print(sum)
+f.close()
