@@ -20,3 +20,5 @@ for i in f:
     midsum = int(midsum)
     ans = midsum + ans
 print(ans)
+f.close()
+
