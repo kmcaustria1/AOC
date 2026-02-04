@@ -1,5 +1,3 @@
-# sum of products (powers) of minimum cubes per game
-
 f = open('input.txt', 'r')
 ans = 0
 for line in f:
@@ -20,7 +18,6 @@ for line in f:
             if int(round[x-3:x-1]) > bmax: bmax = int(round[x-3:x-1])
     power = rmax*gmax*bmax
     ans = ans + power
-    print(rmax, gmax, bmax, power)
-    print(ans)
 print(ans)
+f.close()
 
