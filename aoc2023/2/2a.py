@@ -5,9 +5,6 @@ Created on Fri Dec 29 21:59:24 2023
 @author: Kyle
 """
 
-# sum of game IDs possible with 12 red, 13 green, 14 blue
-# not 2545
-
 f = open('input.txt', 'r')
 ans = 0
 gameGood = None
@@ -35,4 +32,6 @@ for line in f:
     else: gameGood = None
     print(ans, gameGood)
 print(ans)
+
+f.close()
 
