@@ -11,3 +11,4 @@ for i in list1:
     print(i,temp)
     sum += int(i)*temp
 print(sum)
+f.close()
